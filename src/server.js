@@ -20,7 +20,6 @@ app.use("/categories", categoryRouter);
 app.use("/products", productRouter);
 // app.use("/days", dayRouter);
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-databaseConnect();
 
 // error middleware
 app.use(errorMiddleware);
