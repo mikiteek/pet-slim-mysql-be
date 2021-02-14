@@ -7,7 +7,6 @@ const {
 } = require("../../utils/validateCategory");
 const {
   BadRequestError,
-  FailedToPost,
 } = require("../error/errors");
 
 class CategoryController {

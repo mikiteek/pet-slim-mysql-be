@@ -12,7 +12,11 @@ Category.init({
   {
     sequelize,
     timestamps: false,
-  }
+    indexes: [{
+      unique: true,
+      fields: ["name"]
+    }],
+  },
 );
 
 Category.sync()
